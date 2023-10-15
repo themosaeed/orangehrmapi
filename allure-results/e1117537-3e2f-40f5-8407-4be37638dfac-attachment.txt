@@ -1,0 +1,353 @@
+[INFO ] 2023-10-15 14:47:03.341 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.3.20230929[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-15 14:47:06.625 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-10-15 14:47:06.626 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-10-15 14:47:06.711 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-10-15 14:47:07.089 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-10-15 14:47:07.214 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/TestDataFiles/candidateData.json"".
+[INFO ] 2023-10-15 14:47:07.215 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/TestDataFiles/candidateData.json"".
+[INFO ] 2023-10-15 14:47:07.216 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/TestDataFiles/candidateData.json"".
+[ERROR] 2023-10-15 14:47:07.250 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2023-10-15 14:47:07.253 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-10-15 14:47:07.253 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[ERROR] 2023-10-15 14:47:07.254 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2023-10-15 14:47:07.255 [main] AllureLifecycle - Could not stop step: no step running
+[INFO ] 2023-10-15 14:47:07.376 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-15 14:47:07.470 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-10-15 14:47:07.474 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-10-15 14:47:07.577 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                 Starting execution of init configuration method                                                 
+                                                              'CandidateTest.init'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-15 14:47:08.182 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-10-15 14:47:08.193 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless=new, --disable-gpu, --start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: D:\DEV\Testing\interview\Te..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-10-15 14:47:08.194 [main] ReportManager - Attempting to run locally on: "windows | Chrome", Headless Execution.
+[INFO ] 2023-10-15 14:47:08.194 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[WARN ] 2023-10-15 14:47:15.049 [main] ReportManager - Oct 15, 2023 2:47:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-10-15 14:47:15.050 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 117
+[INFO ] 2023-10-15 14:47:15.143 [main] ReportManager - Successfully Opened: "windows | Chrome", Headless Execution.
+[INFO ] 2023-10-15 14:47:15.405 [main] ReportManager - Target URL: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+[INFO ] 2023-10-15 14:47:15.420 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-10-15 14:47:18.041 [main] ReportManager - Navigate to url "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".
+[INFO ] 2023-10-15 14:47:18.459 [main] ReportManager - Type "Admin" into "Username".
+[INFO ] 2023-10-15 14:47:18.592 [main] ReportManager - Type "admin123" into "Password".
+[INFO ] 2023-10-15 14:47:18.767 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-10-15 14:47:18.791 [main] ReportManager - Click "Login".
+[INFO ] 2023-10-15 14:47:19.731 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-10-15 14:47:19.732 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/TestDataFiles/candidateData.json"".
+[INFO ] 2023-10-15 14:47:19.733 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/TestDataFiles/candidateData.json"".
+[INFO ] 2023-10-15 14:47:20.632 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/TestDataFiles/candidateData.json"".
+[INFO ] 2023-10-15 14:47:20.632 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/TestDataFiles/candidateData.json"".
+[INFO ] 2023-10-15 14:47:20.657 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/TestDataFiles/candidateData.json"".
+[INFO ] 2023-10-15 14:47:20.658 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/TestDataFiles/candidateData.json"".
+[INFO ] 2023-10-15 14:47:20.701 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 4' test cases in the current suite                                        
+                                                  Test Method: 'CandidateTest.createCandidate'                                                  
+                                                    Test Description: 'create new candidate'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2023-10-15 14:47:21.251 [main] BasicClientConnectionManager - Get connection for route {s}->https://opensource-demo.orangehrmlive.com:443
+[DEBUG] 2023-10-15 14:47:21.315 [main] DefaultClientConnectionOperator - Connecting to opensource-demo.orangehrmlive.com:443
+[DEBUG] 2023-10-15 14:47:21.699 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-10-15 14:47:21.700 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-10-15 14:47:21.700 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-10-15 14:47:21.700 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-10-15 14:47:21.700 [main] DefaultClientConnection - Sending request: POST /web/index.php/api/v2/recruitment/candidates HTTP/1.1
+[DEBUG] 2023-10-15 14:47:21.701 [main] wire -  >> "POST /web/index.php/api/v2/recruitment/candidates HTTP/1.1[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.701 [main] wire -  >> "Cookie: orangehrm=a4eaa8f4a2c11ba832baff99c3a593b2[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.701 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.701 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.701 [main] wire -  >> "Content-Length: 60[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.701 [main] wire -  >> "Host: opensource-demo.orangehrmlive.com[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.701 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.702 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8.1)[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.702 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.702 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.702 [main] headers - >> POST /web/index.php/api/v2/recruitment/candidates HTTP/1.1
+[DEBUG] 2023-10-15 14:47:21.702 [main] headers - >> Cookie: orangehrm=a4eaa8f4a2c11ba832baff99c3a593b2
+[DEBUG] 2023-10-15 14:47:21.702 [main] headers - >> Accept: */*
+[DEBUG] 2023-10-15 14:47:21.702 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2023-10-15 14:47:21.702 [main] headers - >> Content-Length: 60
+[DEBUG] 2023-10-15 14:47:21.702 [main] headers - >> Host: opensource-demo.orangehrmlive.com
+[DEBUG] 2023-10-15 14:47:21.702 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-10-15 14:47:21.702 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8.1)
+[DEBUG] 2023-10-15 14:47:21.702 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-10-15 14:47:21.703 [main] wire -  >> "{"firstName":"mo","lastName":"saeed","email":"mo@gmail.com"}"
+[DEBUG] 2023-10-15 14:47:21.923 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.925 [main] wire -  << "Server: nginx[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.926 [main] wire -  << "Date: Sun, 15 Oct 2023 11:47:21 GMT[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.926 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.926 [main] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.926 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.926 [main] wire -  << "Cache-Control: no-cache, private[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.926 [main] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.926 [main] wire -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.926 [main] wire -  << "Strict-Transport-Security: max-age=63072000; includeSubdomains; [\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.927 [main] wire -  << "Content-Security-Policy: default-src blob: 'self' *.projects-abroad.net fonts.googleapis.com www.google.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.youtube.com demo.docusign.net youtu.be player.vimeo.com docs.google.com 'unsafe-inline' 'unsafe-eval' data: font;frame-src 'self' *.amazonaws.com native.testing.equest.com sandbox.e-signlive.com;connect-src 'self' *.orangehrm.com;img-src * 'self' data: blob:[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.927 [main] wire -  << "Public-Key-Pins: pin-sha256="blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=";pin-sha256="yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg="; pin-sha256="puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A="; max-age=63072000; includeSubDomains[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.927 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.928 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2023-10-15 14:47:21.928 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2023-10-15 14:47:21.928 [main] headers - << Server: nginx
+[DEBUG] 2023-10-15 14:47:21.928 [main] headers - << Date: Sun, 15 Oct 2023 11:47:21 GMT
+[DEBUG] 2023-10-15 14:47:21.928 [main] headers - << Content-Type: application/json
+[DEBUG] 2023-10-15 14:47:21.928 [main] headers - << Transfer-Encoding: chunked
+[DEBUG] 2023-10-15 14:47:21.928 [main] headers - << Connection: keep-alive
+[DEBUG] 2023-10-15 14:47:21.928 [main] headers - << Cache-Control: no-cache, private
+[DEBUG] 2023-10-15 14:47:21.929 [main] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2023-10-15 14:47:21.929 [main] headers - << X-XSS-Protection: 1; mode=block
+[DEBUG] 2023-10-15 14:47:21.929 [main] headers - << Strict-Transport-Security: max-age=63072000; includeSubdomains; 
+[DEBUG] 2023-10-15 14:47:21.929 [main] headers - << Content-Security-Policy: default-src blob: 'self' *.projects-abroad.net fonts.googleapis.com www.google.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.youtube.com demo.docusign.net youtu.be player.vimeo.com docs.google.com 'unsafe-inline' 'unsafe-eval' data: font;frame-src 'self' *.amazonaws.com native.testing.equest.com sandbox.e-signlive.com;connect-src 'self' *.orangehrm.com;img-src * 'self' data: blob:
+[DEBUG] 2023-10-15 14:47:21.929 [main] headers - << Public-Key-Pins: pin-sha256="blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=";pin-sha256="yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg="; pin-sha256="puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A="; max-age=63072000; includeSubDomains
+[DEBUG] 2023-10-15 14:47:21.938 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2023-10-15 14:47:21.938 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-10-15 14:47:21.957 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2023-10-15 14:47:21.967 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-10-15 14:47:21.987 [main] wire -  << "73[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.987 [main] wire -  << "{"data":{"id":63,"firstName":"mo","middleName":null,"lastName":"saeed","email":"mo@gmail.com"},"meta":[],"rels":[]}"
+[DEBUG] 2023-10-15 14:47:21.988 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.988 [main] wire -  << "0[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.988 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:21.988 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@14c05ad9
+[DEBUG] 2023-10-15 14:47:21.988 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-10-15 14:47:22.055 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[DEBUG] 2023-10-15 14:47:22.083 [main] cache - Couldn't find template in cache for "codeblock.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-10-15 14:47:22.084 [main] cache - TemplateLoader.findTemplateSource("codeblock_en_US.ftl"): Not found
+[DEBUG] 2023-10-15 14:47:22.085 [main] cache - TemplateLoader.findTemplateSource("codeblock_en.ftl"): Not found
+[DEBUG] 2023-10-15 14:47:22.085 [main] cache - TemplateLoader.findTemplateSource("codeblock.ftl"): Found
+[DEBUG] 2023-10-15 14:47:22.085 [main] cache - Loading template for "codeblock.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/moels/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/markup/codeblock.ftl"
+[DEBUG] 2023-10-15 14:47:22.184 [main] cache - Couldn't find template in cache for "codeblock.json.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2023-10-15 14:47:22.184 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en_US.ftl"): Not found
+[DEBUG] 2023-10-15 14:47:22.184 [main] cache - TemplateLoader.findTemplateSource("codeblock.json_en.ftl"): Not found
+[DEBUG] 2023-10-15 14:47:22.184 [main] cache - TemplateLoader.findTemplateSource("codeblock.json.ftl"): Found
+[DEBUG] 2023-10-15 14:47:22.184 [main] cache - Loading template for "codeblock.json.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/moels/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/markup/codeblock.json.ftl"
+[INFO ] 2023-10-15 14:47:22.202 [main] ReportManager - Successfully created attachment 'API Request - JSON Body'
+[INFO ] 2023-10-15 14:47:22.203 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[DEBUG] 2023-10-15 14:47:22.283 [main] CompiledPath - Evaluating path: $['data']['id']
+[INFO ] 2023-10-15 14:47:22.285 [main] ReportManager - Get response jsonvalue "data.id".
+[INFO ] 2023-10-15 14:47:22.287 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: createCandidate'
+[INFO ] 2023-10-15 14:47:22.288 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Finished Execution of Test Method: 'CandidateTest.createCandidate'                                       
+                                                    Test Description: 'create new candidate'                                                    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-15 14:47:22.342 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 4' test cases in the current suite                                        
+                                                  Test Method: 'CandidateTest.searchCandidate'                                                  
+                                         Test Description: 'validate that candidate created correctly '                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2023-10-15 14:47:22.356 [main] BasicClientConnectionManager - Get connection for route {s}->https://opensource-demo.orangehrmlive.com:443
+[DEBUG] 2023-10-15 14:47:22.356 [main] DefaultClientConnectionOperator - Connecting to opensource-demo.orangehrmlive.com:443
+[DEBUG] 2023-10-15 14:47:22.639 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-10-15 14:47:22.639 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-10-15 14:47:22.639 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-10-15 14:47:22.639 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-10-15 14:47:22.640 [main] DefaultClientConnection - Sending request: GET /web/index.php/api/v2/recruitment/candidates HTTP/1.1
+[DEBUG] 2023-10-15 14:47:22.641 [main] wire -  >> "GET /web/index.php/api/v2/recruitment/candidates HTTP/1.1[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.641 [main] wire -  >> "Content-Type: */*; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.641 [main] wire -  >> "Cookie: orangehrm=a4eaa8f4a2c11ba832baff99c3a593b2[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.641 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.641 [main] wire -  >> "Host: opensource-demo.orangehrmlive.com[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.641 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.641 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8.1)[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.641 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.641 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.641 [main] headers - >> GET /web/index.php/api/v2/recruitment/candidates HTTP/1.1
+[DEBUG] 2023-10-15 14:47:22.641 [main] headers - >> Content-Type: */*; charset=UTF-8
+[DEBUG] 2023-10-15 14:47:22.641 [main] headers - >> Cookie: orangehrm=a4eaa8f4a2c11ba832baff99c3a593b2
+[DEBUG] 2023-10-15 14:47:22.641 [main] headers - >> Accept: */*
+[DEBUG] 2023-10-15 14:47:22.641 [main] headers - >> Host: opensource-demo.orangehrmlive.com
+[DEBUG] 2023-10-15 14:47:22.641 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-10-15 14:47:22.641 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8.1)
+[DEBUG] 2023-10-15 14:47:22.641 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-10-15 14:47:22.871 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.871 [main] wire -  << "Server: nginx[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.872 [main] wire -  << "Date: Sun, 15 Oct 2023 11:47:22 GMT[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.872 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.872 [main] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.872 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.872 [main] wire -  << "Cache-Control: no-cache, private[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.872 [main] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.872 [main] wire -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.872 [main] wire -  << "Strict-Transport-Security: max-age=63072000; includeSubdomains; [\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.873 [main] wire -  << "Content-Security-Policy: default-src blob: 'self' *.projects-abroad.net fonts.googleapis.com www.google.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.youtube.com demo.docusign.net youtu.be player.vimeo.com docs.google.com 'unsafe-inline' 'unsafe-eval' data: font;frame-src 'self' *.amazonaws.com native.testing.equest.com sandbox.e-signlive.com;connect-src 'self' *.orangehrm.com;img-src * 'self' data: blob:[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.873 [main] wire -  << "Public-Key-Pins: pin-sha256="blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=";pin-sha256="yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg="; pin-sha256="puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A="; max-age=63072000; includeSubDomains[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.873 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.873 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2023-10-15 14:47:22.873 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2023-10-15 14:47:22.873 [main] headers - << Server: nginx
+[DEBUG] 2023-10-15 14:47:22.873 [main] headers - << Date: Sun, 15 Oct 2023 11:47:22 GMT
+[DEBUG] 2023-10-15 14:47:22.873 [main] headers - << Content-Type: application/json
+[DEBUG] 2023-10-15 14:47:22.873 [main] headers - << Transfer-Encoding: chunked
+[DEBUG] 2023-10-15 14:47:22.874 [main] headers - << Connection: keep-alive
+[DEBUG] 2023-10-15 14:47:22.874 [main] headers - << Cache-Control: no-cache, private
+[DEBUG] 2023-10-15 14:47:22.874 [main] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2023-10-15 14:47:22.874 [main] headers - << X-XSS-Protection: 1; mode=block
+[DEBUG] 2023-10-15 14:47:22.874 [main] headers - << Strict-Transport-Security: max-age=63072000; includeSubdomains; 
+[DEBUG] 2023-10-15 14:47:22.874 [main] headers - << Content-Security-Policy: default-src blob: 'self' *.projects-abroad.net fonts.googleapis.com www.google.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.youtube.com demo.docusign.net youtu.be player.vimeo.com docs.google.com 'unsafe-inline' 'unsafe-eval' data: font;frame-src 'self' *.amazonaws.com native.testing.equest.com sandbox.e-signlive.com;connect-src 'self' *.orangehrm.com;img-src * 'self' data: blob:
+[DEBUG] 2023-10-15 14:47:22.874 [main] headers - << Public-Key-Pins: pin-sha256="blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=";pin-sha256="yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg="; pin-sha256="puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A="; max-age=63072000; includeSubDomains
+[DEBUG] 2023-10-15 14:47:22.875 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2023-10-15 14:47:22.875 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-10-15 14:47:22.876 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2023-10-15 14:47:22.877 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-10-15 14:47:22.878 [main] wire -  << "ef3[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.878 [main] wire -  << "{"data":[{"id":32,"firstName":"zahra17","middleName":null,"lastName":"aqel","email":"zahra99@gmail.com"},{"id":33,"firstName":"zahra17","middleName":null,"lastName":"aqel","email":"zahra99@gmail.com"},{"id":34,"firstName":"zahra17","middleName":null,"lastName":"aqel","email":"zahra99@gmail.com"},{"id":31,"firstName":"ss","middleName":null,"lastName":"oo","email":"s@o.com"},{"id":35,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":36,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":38,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":39,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":40,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":42,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":43,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":44,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":50,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":55,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":56,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":57,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":58,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":59,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":60,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":62,"firstName":"mero","middleName":null,"lastName":"s","email":"mero@gmail.com"},{"id":63,"firstName":"mo","middleName":null,"lastName":"saeed","email":"mo@gmail.com"},{"id":30,"firstName":"Iva","middleName":"Reese","lastName":"Berge","email":"Jordy.Pouros5@hotmail.com"},{"id":37,"firstName":"Betsy","middleName":"Avery","lastName":"Kris","email":"Nils_Treutel43@yahoo.com"},{"id":41,"firstName":"Toby","middleName":"Bailey","lastName":"McClure","email":"Clinton64@hotmail.com"},{"id":61,"firstName":"sami22182","middleName":"mohammad2250","lastName":"osaim11113","email":"sara2170@outlook.cpm"},{"id":54,"firstName":"sami2285","middleName":"mohammad2278","lastName":"osaim11114","email":"sara216@outlook.cpm"},{"id":52,"firstName":"sami2276","middleName":"mohammad2229","lastName":"osaim11119","email":"sara2119@outlook.cpm"},{"id":45,"firstName":"sami22150","middleName":"mohammad22143","lastName":"osaim11135","email":"sara259@outlook.cpm"},{"id":28,"firstName":"sami22159","middleName":"mohammad22113","lastName":"osaim11150","email":"sara250@outlook.cpm"},{"id":46,"firstName":"sami2261","middleName":"mohammad22135","lastName":"osaim11155","email":"sara2109@outlook.cpm"},{"id":51,"firstName":"sami2276","middleName":"mohammad2255","lastName":"osaim11171","email":"sara239@outlook.cpm"},{"id":49,"firstName":"sami22199","middleName":"mohammad2233","lastName":"osaim11198","email":"sara2158@outlook.cpm"},{"id":27,"firstName":"sami2210","middleName":"mohammad2264","lastName":"osaim11200","email":"sara240@outlook.cpm"},{"id":48,"firstName":"sami2210","middleName":"mohammad22101","lastName":"osaim1142","email":"sara249@outlook.cpm"},{"id":29,"firstName":"sami22182","middleName":"mohammad2226","lastName":"osaim1177","email":"sara222@outlook.cpm"},{"id":47,"firstName":"sami22160","middleName":"mohammad2231","lastName":"osaim1188","email":"sara276@outlook.cpm"},{"id":53,"firstName":"sami2256","middleName":"mohammad2244","lastName":"osaim1194","email":"sara2166@outlook.cpm"},{"id":25,"firstName":"Bridgette","middleName":"Skyler","lastName":"Prohaska","email":"Ofelia_Witting@gmail.com"},{"id":24,"firstName":"Josefina","middleNa"
+[DEBUG] 2023-10-15 14:47:22.878 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.878 [main] wire -  << "474[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.878 [main] wire -  << "me":"Finley","lastName":"Rogahn","email":"Libby_Walker89@gmail.com"},{"id":26,"firstName":"Bud","middleName":"Emerson","lastName":"Ward","email":"Halle_Kerluke@hotmail.com"},{"id":23,"firstName":"mohan","middleName":null,"lastName":"k","email":"mohan123@gmail.com"},{"id":5,"firstName":"Charles","middleName":"","lastName":"Haywire","email":"charleshey@gmail.com"},{"id":19,"firstName":"Jennifer","middleName":"","lastName":"Clinton","email":"jen@gmail.com"},{"id":17,"firstName":"Chris","middleName":"","lastName":"Harris","email":"chris@gmail.com"},{"id":1,"firstName":"Peter","middleName":"","lastName":"Smith","email":"petersmith@gmail.com"},{"id":2,"firstName":"Jo","middleName":"","lastName":"Denton","email":"jodentan@gmail.com"},{"id":12,"firstName":"Joe","middleName":"","lastName":"Root","email":"joeroo@gmail.com"},{"id":13,"firstName":"Martine","middleName":"","lastName":"Tennat","email":"martinetennat@gmail.com"},{"id":20,"firstName":"Phil","middleName":"","lastName":"Hughes","email":"ryan@gmail.com"},{"id":9,"firstName":"Joshua","middleName":"","lastName":"Malfoy","email":"josh@gmail.com"}],"meta":{"total":50},"rels":[]}"
+[DEBUG] 2023-10-15 14:47:22.878 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.878 [main] wire -  << "0[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.878 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:22.878 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@48c8a84d
+[DEBUG] 2023-10-15 14:47:22.878 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-10-15 14:47:22.899 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2023-10-15 14:47:22.900 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[DEBUG] 2023-10-15 14:47:23.129 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:50130<->78.136.60.48:443 closed
+[INFO ] 2023-10-15 14:47:23.466 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: searchCandidate'
+[INFO ] 2023-10-15 14:47:23.467 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Finished Execution of Test Method: 'CandidateTest.searchCandidate'                                       
+                                         Test Description: 'validate that candidate created correctly '                                         
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-15 14:47:23.472 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 4' test cases in the current suite                                        
+                                                  Test Method: 'CandidateTest.deleteCandidate'                                                  
+                                                Test Description: 'delete the created candidate'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2023-10-15 14:47:23.538 [main] BasicClientConnectionManager - Get connection for route {s}->https://opensource-demo.orangehrmlive.com:443
+[DEBUG] 2023-10-15 14:47:23.538 [main] DefaultClientConnectionOperator - Connecting to opensource-demo.orangehrmlive.com:443
+[DEBUG] 2023-10-15 14:47:23.839 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2023-10-15 14:47:23.839 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2023-10-15 14:47:23.839 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2023-10-15 14:47:23.839 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2023-10-15 14:47:23.840 [main] DefaultClientConnection - Sending request: DELETE /web/index.php/api/v2/recruitment/candidates HTTP/1.1
+[DEBUG] 2023-10-15 14:47:23.840 [main] wire -  >> "DELETE /web/index.php/api/v2/recruitment/candidates HTTP/1.1[\r][\n]"
+[DEBUG] 2023-10-15 14:47:23.840 [main] wire -  >> "Cookie: orangehrm=a4eaa8f4a2c11ba832baff99c3a593b2[\r][\n]"
+[DEBUG] 2023-10-15 14:47:23.840 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2023-10-15 14:47:23.841 [main] wire -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+[DEBUG] 2023-10-15 14:47:23.841 [main] wire -  >> "Content-Length: 14[\r][\n]"
+[DEBUG] 2023-10-15 14:47:23.842 [main] wire -  >> "Host: opensource-demo.orangehrmlive.com[\r][\n]"
+[DEBUG] 2023-10-15 14:47:23.842 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2023-10-15 14:47:23.842 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8.1)[\r][\n]"
+[DEBUG] 2023-10-15 14:47:23.842 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2023-10-15 14:47:23.842 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:23.842 [main] headers - >> DELETE /web/index.php/api/v2/recruitment/candidates HTTP/1.1
+[DEBUG] 2023-10-15 14:47:23.842 [main] headers - >> Cookie: orangehrm=a4eaa8f4a2c11ba832baff99c3a593b2
+[DEBUG] 2023-10-15 14:47:23.842 [main] headers - >> Accept: */*
+[DEBUG] 2023-10-15 14:47:23.842 [main] headers - >> Content-Type: application/json; charset=UTF-8
+[DEBUG] 2023-10-15 14:47:23.842 [main] headers - >> Content-Length: 14
+[DEBUG] 2023-10-15 14:47:23.842 [main] headers - >> Host: opensource-demo.orangehrmlive.com
+[DEBUG] 2023-10-15 14:47:23.842 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2023-10-15 14:47:23.843 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.8.1)
+[DEBUG] 2023-10-15 14:47:23.843 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2023-10-15 14:47:23.843 [main] wire -  >> "{"ids":["63"]}"
+[DEBUG] 2023-10-15 14:47:24.089 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.090 [main] wire -  << "Server: nginx[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.090 [main] wire -  << "Date: Sun, 15 Oct 2023 11:47:23 GMT[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.090 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.090 [main] wire -  << "Transfer-Encoding: chunked[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.090 [main] wire -  << "Connection: keep-alive[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.090 [main] wire -  << "Cache-Control: no-cache, private[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.090 [main] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.090 [main] wire -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.090 [main] wire -  << "Strict-Transport-Security: max-age=63072000; includeSubdomains; [\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.090 [main] wire -  << "Content-Security-Policy: default-src blob: 'self' *.projects-abroad.net fonts.googleapis.com www.google.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.youtube.com demo.docusign.net youtu.be player.vimeo.com docs.google.com 'unsafe-inline' 'unsafe-eval' data: font;frame-src 'self' *.amazonaws.com native.testing.equest.com sandbox.e-signlive.com;connect-src 'self' *.orangehrm.com;img-src * 'self' data: blob:[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.091 [main] wire -  << "Public-Key-Pins: pin-sha256="blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=";pin-sha256="yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg="; pin-sha256="puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A="; max-age=63072000; includeSubDomains[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.091 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.091 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2023-10-15 14:47:24.091 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2023-10-15 14:47:24.091 [main] headers - << Server: nginx
+[DEBUG] 2023-10-15 14:47:24.091 [main] headers - << Date: Sun, 15 Oct 2023 11:47:23 GMT
+[DEBUG] 2023-10-15 14:47:24.091 [main] headers - << Content-Type: application/json
+[DEBUG] 2023-10-15 14:47:24.091 [main] headers - << Transfer-Encoding: chunked
+[DEBUG] 2023-10-15 14:47:24.091 [main] headers - << Connection: keep-alive
+[DEBUG] 2023-10-15 14:47:24.091 [main] headers - << Cache-Control: no-cache, private
+[DEBUG] 2023-10-15 14:47:24.091 [main] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2023-10-15 14:47:24.091 [main] headers - << X-XSS-Protection: 1; mode=block
+[DEBUG] 2023-10-15 14:47:24.091 [main] headers - << Strict-Transport-Security: max-age=63072000; includeSubdomains; 
+[DEBUG] 2023-10-15 14:47:24.091 [main] headers - << Content-Security-Policy: default-src blob: 'self' *.projects-abroad.net fonts.googleapis.com www.google.com fonts.gstatic.com code.jquery.com maxcdn.bootstrapcdn.com ajax.googleapis.com cdnjs.cloudflare.com native.testing.equest.com www.youtube.com demo.docusign.net youtu.be player.vimeo.com docs.google.com 'unsafe-inline' 'unsafe-eval' data: font;frame-src 'self' *.amazonaws.com native.testing.equest.com sandbox.e-signlive.com;connect-src 'self' *.orangehrm.com;img-src * 'self' data: blob:
+[DEBUG] 2023-10-15 14:47:24.091 [main] headers - << Public-Key-Pins: pin-sha256="blgmjf3Tb3C0sUqb7jo4axiZAnr327fX0ycrUGqjw2k=";pin-sha256="yQhO6YqQX5Y/NxyHAjXnI3jOtYWUm/TtRr666RunXRg="; pin-sha256="puCdyuZdXoDc5jSdcGKU6mdjd0VNq16yoaO2BcDF36A="; max-age=63072000; includeSubDomains
+[DEBUG] 2023-10-15 14:47:24.092 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2023-10-15 14:47:24.092 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[INFO ] 2023-10-15 14:47:24.094 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2023-10-15 14:47:24.095 [main] ReportManager - Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[DEBUG] 2023-10-15 14:47:24.096 [main] wire -  << "23[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.096 [main] wire -  << "{"data":["63"],"meta":[],"rels":[]}"
+[DEBUG] 2023-10-15 14:47:24.096 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.096 [main] wire -  << "0[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.096 [main] wire -  << "[\r][\n]"
+[DEBUG] 2023-10-15 14:47:24.097 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4aa037e6
+[DEBUG] 2023-10-15 14:47:24.097 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2023-10-15 14:47:24.109 [main] ReportManager - Successfully created attachment 'API Request - Specifications'
+[INFO ] 2023-10-15 14:47:24.110 [main] ReportManager - Successfully created attachment 'API Request - JSON Body'
+[INFO ] 2023-10-15 14:47:24.111 [main] ReportManager - Successfully created attachment 'API Response - JSON Body'
+[INFO ] 2023-10-15 14:47:24.111 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: deleteCandidate'
+[INFO ] 2023-10-15 14:47:24.111 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Finished Execution of Test Method: 'CandidateTest.deleteCandidate'                                       
+                                                Test Description: 'delete the created candidate'                                                
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-15 14:47:24.113 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                 Starting execution of init configuration method                                                 
+                                                              'candidateTests.init'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-15 14:47:24.115 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-10-15 14:47:24.116 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--headless=new, --disable-gpu, --start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: D:\DEV\Testing\interview\Te..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-10-15 14:47:24.116 [main] ReportManager - Attempting to run locally on: "windows | Chrome", Headless Execution.
+[INFO ] 2023-10-15 14:47:24.117 [main] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[WARN ] 2023-10-15 14:47:24.882 [main] ReportManager - Oct 15, 2023 2:47:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-10-15 14:47:24.882 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 117
+[INFO ] 2023-10-15 14:47:24.883 [main] ReportManager - Successfully Opened: "windows | Chrome", Headless Execution.
+[INFO ] 2023-10-15 14:47:25.117 [main] ReportManager - Target URL: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+[INFO ] 2023-10-15 14:47:25.130 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-10-15 14:47:27.959 [main] ReportManager - Navigate to url "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".
+[INFO ] 2023-10-15 14:47:28.353 [main] ReportManager - Type "Admin" into "Username".
+[INFO ] 2023-10-15 14:47:28.428 [main] ReportManager - Type "admin123" into "Password".
+[INFO ] 2023-10-15 14:47:28.590 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-10-15 14:47:28.612 [main] ReportManager - Click "Login".
+[INFO ] 2023-10-15 14:47:29.687 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2023-10-15 14:47:29.694 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 4' test cases in the current suite                                        
+                                                      Test Method: 'candidateTests.nullds'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-15 14:47:29.695 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: nullds'
+[INFO ] 2023-10-15 14:47:29.695 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Finished Execution of Test Method: 'candidateTests.nullds'                                           
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-15 14:47:29.712 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-15 14:47:29.712 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-10-15 14:47:29.713 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-10-15 14:47:29.713 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

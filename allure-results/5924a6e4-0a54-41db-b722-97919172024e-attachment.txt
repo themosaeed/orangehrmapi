@@ -1,0 +1,15 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 4' test cases in the current suite                                        
+                                                  Test Method: 'CandidateTest.createCandidate'                                                  
+                                                    Test Description: 'create new candidate'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @15-10-2023 14:47:21.0957 PM
+[ReportManager] Assertion "ValidateComparativeRelation" PASSED. Expected "200" and Actual "200". Comparison Type "EQUALS". Validation Type "POSITIVE". @15-10-2023 14:47:21.0967 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code 200 against the expected one 200. @15-10-2023 14:47:21.0968 PM
+[ReportManager] Request details:  "POST | Target Status Code: 200 | Service URL: https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/recruitment/candidates | Content Type: application/json | Response Time: 925ms". @15-10-2023 14:47:22.0055 PM
+[ReportManager] Successfully created attachment 'API Request - Specifications' @15-10-2023 14:47:22.0055 PM
+[ReportManager] Successfully created attachment 'API Request - JSON Body' @15-10-2023 14:47:22.0202 PM
+[ReportManager] Successfully created attachment 'API Response - JSON Body' @15-10-2023 14:47:22.0203 PM
+[ReportManager] Get response jsonvalue "data.id". @15-10-2023 14:47:22.0285 PM
